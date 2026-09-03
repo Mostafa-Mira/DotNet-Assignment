@@ -289,6 +289,82 @@
             #endregion
 
             #region problem 15 but another way
+            /*
+            Console.WriteLine("Enter month numebr");
+            int monthNum;
+            if (int.TryParse(Console.ReadLine(), out monthNum))
+            {
+                if (monthNum > 0 && monthNum < 13)
+                {
+                    switch (monthNum)
+                    {
+                        case 1:
+                            Console.WriteLine("Month:January");
+                            break;
+                        case 2:
+                            Console.WriteLine("Month: February");
+                            break;
+                        case 3:
+                            Console.WriteLine("Month: March");
+                            break;
+                        case 4:
+                            Console.WriteLine("Month: April");
+                            break;
+                        case 5:
+                            Console.WriteLine("Month: May");
+                            break;
+                        case 6:
+                            Console.WriteLine("Month: June");
+                            break;
+                        case 7:
+                            Console.WriteLine("Month: July");
+                            break;
+                        case 8:
+                            Console.WriteLine("Month: August");
+                            break;
+                        case 9:
+                            Console.WriteLine("Month: September");
+                            break;
+                        case 10:
+                            Console.WriteLine("Month: October");
+                            break;
+                        case 11:
+                            Console.WriteLine("Month:November");
+                            break;
+                        case 12:
+                            Console.WriteLine("Month: December");
+                            break;
+                    }
+
+                    if (monthNum == 1 || monthNum == 2 || monthNum == 3)
+                    {
+                        Console.WriteLine("Quarter: First Quarter");
+                    }
+                    else if (monthNum == 4 || monthNum == 5 || monthNum == 6)
+                    {
+                        Console.WriteLine("Quarter: Second Quarter");
+                    }
+                    else if (monthNum == 7 || monthNum == 8 || monthNum == 9)
+                    {
+                        Console.WriteLine("Quarter: Third Quarter");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Quarter: Fourth Quarter");
+                    }
+                }
+
+                else
+                {
+                    Console.WriteLine("invalid input");
+                }
+            }
+
+            else
+            {
+                Console.WriteLine("invalid input");
+            }
+            */
 
             #endregion
 
