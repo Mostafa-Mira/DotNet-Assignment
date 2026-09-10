@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Drawing;
+using System.Reflection;
+using System.Security.Claims;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace assignment_06
 {
@@ -231,6 +234,22 @@ namespace assignment_06
 
             #region problem 01 part 02
             // A copy constructor is a constructor used to create a new object by copying the values of another object
+            #endregion
+
+            #region problem 02 part 02
+            /*
+            An Indexer allows an object to be accessed like an array using []
+            It is used when accessing data by an index or key
+            Business cases: Shopping cart to access products, student management system to access students by ID, and inventory system to access products by code
+            */
+            #endregion
+
+            #region problem 03 part 02
+
+            /*
+            Keywords learned: **Struct, Class, Constructor, Constructor Overloading, Encapsulation, Access Modifiers, Properties, Getters, Setters,
+            Inheritance, Override, ToString(), Value Type, Reference Type, Copy Constructor, and Indexer
+            */
             #endregion
         }
         #region problem 11 (function)
