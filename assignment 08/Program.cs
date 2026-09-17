@@ -167,7 +167,7 @@ namespace assignment_08
             // It allows objects to be created in different ways depending on the available data
             #endregion
 
-            //                                                                                                               PART 2
+            //                                                                                           PART 2
 
             #region problem 01
             // Coding against an interface rather than a class means you make your code depend on the interface (contract) instead of a specific class
