@@ -1,7 +1,25 @@
-﻿namespace assignment_08
+﻿using System.Runtime.Intrinsics.X86;
+
+namespace assignment_08
 {
     internal class Program
     {
+
+        #region problem 03 part 2
+
+        public static void PrintTenShapes(IShapeSeries series)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                series.GetNextArea();
+                Console.WriteLine(series.CurrentShapeArea);
+            }
+
+            series.ResetSeries();
+        }
+        
+        #endregion
+
         static void Main(string[] args)
         {
             #region problem 01
@@ -148,6 +166,50 @@
             #region problem 17
             // It allows objects to be created in different ways depending on the available data
             #endregion
+
+            //                                                                                                               PART 2
+
+            #region problem 01
+            // Coding against an interface rather than a class means you make your code depend on the interface (contract) instead of a specific class
+            //So you can later use another class without changing the main code
+
+            // Code against abstraction, not concreteness means the same idea: depend on abstract concepts(interface/abstract class) rather than specific implementations(concrete classes)
+            #endregion
+
+            #region problem 02
+            //Abstraction means hiding implementation details and depending on general concepts instead of specific classes.We can implement it using interfaces and abstract classes
+            #endregion
+
+            #region problem 03 part 2
+            /*
+            IShapeSeries series = new SquareSeries();
+
+            PrintTenShapes(series);
+
+            series = new CircleSeries();
+
+            PrintTenShapes(series);
+            */
+            #endregion
+
+            #region problem 04
+            /*
+            ShapeSort[] Shapes =
+            {
+                 new ShapeSort() { Name = "Square", Area = 25 },
+                 new ShapeSort() { Name = "Circle", Area = 12.5 },
+                 new ShapeSort() { Name = "Rectangle", Area = 40 }
+            };
+
+            Array.Sort(Shapes);
+
+            foreach (ShapeSort S in Shapes)
+            {
+                Console.WriteLine($"{S.Name} : {S.Area}");
+            }
+            */
+            #endregion
+
 
         }
     }
