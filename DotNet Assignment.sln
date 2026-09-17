@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.37516.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment 02", "assignment 02\assignment 02.csproj", "{CFC5CC15-245F-4E3F-98E1-56149A007B1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment 1", "assignment 1\assignment 1.csproj", "{AEE580FA-38B3-465C-ACDA-3A89F7107B70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment 01", "assignment 1\assignment 01.csproj", "{AEE580FA-38B3-465C-ACDA-3A89F7107B70}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment 03", "assignment 03\assignment 03.csproj", "{2EFF13C8-3E2D-4AE0-B471-D9E2CC31A87C}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment 06", "assignment 06\assignment 06.csproj", "{6C0B3E80-BEC4-4FF5-A47C-139135AB5CD1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment 07", "assignment 07\assignment 07.csproj", "{2D34A4A9-9F2B-41F9-8CF0-B523D83914B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment 08", "assignment 08\assignment 08.csproj", "{FEFFB9FC-072C-4848-B1FB-5B0A08457CAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{2D34A4A9-9F2B-41F9-8CF0-B523D83914B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D34A4A9-9F2B-41F9-8CF0-B523D83914B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D34A4A9-9F2B-41F9-8CF0-B523D83914B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFFB9FC-072C-4848-B1FB-5B0A08457CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFFB9FC-072C-4848-B1FB-5B0A08457CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFFB9FC-072C-4848-B1FB-5B0A08457CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFFB9FC-072C-4848-B1FB-5B0A08457CAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
